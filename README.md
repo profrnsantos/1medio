@@ -20,25 +20,27 @@ Siga estes passos para configurar e desenvolver seu catálogo de vídeos sem pre
 Crie um Novo Repositório no GitHub:
 Acesse github.com e faça login (ou crie uma conta).
 Clique no botão + (canto superior direito) e selecione New repository.
-Dê um nome significativo ao seu repositório (ex: catalogo-videos-escolar).
+Dê o nome de catalogo-de-videos ao seu repositório.
 Marque a opção Add a README file para criar este arquivo automaticamente.
 Clique em Create repository.
 2. Criando a Estrutura de Pastas e Arquivos no GitHub (Vazio)
 Vamos criar as pastas e os arquivos necessários diretamente no site do GitHub. Lembre-se que, para uma pasta aparecer, ela precisa conter um arquivo dentro dela.
-
-Crie a pasta public/ e o arquivo public/index.html:
+**Seguiremos a estrutura como no modelo acima do início deste arquivo.
 
 Na página principal do seu repositório, clique no botão Add file (verde, no topo) e depois em Create new file.
-No campo "Name your file...", digite: public/index.html
+No campo "Name your file...", digite: public/
+Quando digitar a / irá abrir um espaço para digitar o nome do arquivo, digite: index.html
 Deixe o conteúdo do arquivo vazio por enquanto.
 Role para baixo, adicione uma mensagem de commit (ex: Cria pasta public e index.html) e clique em Commit new file.
 Crie a pasta public/css/ e o arquivo public/css/style.css:
 
-Repita o passo anterior: Add file > Create new file.
-No campo "Name your file...", digite: public/css/style.css
+Repita o passo anterior, dentro da pasta public clique em: Add file > Create new file.
+No campo "Name your file...", digite: css/
+Quando digitar a / irá abrir um espaço para digitar o nome do arquivo, digite: style.css
 Deixe o conteúdo vazio.
 Mensagem de commit: Cria pasta css e style.css
 Clique em Commit new file.
+
 Crie a pasta public/js/ e o arquivo public/js/script.js:
 
 Repita o processo.
@@ -97,6 +99,7 @@ Peça ao Gemini para Gerar a Lista:
 
 Prompt para o Gemini:
 Gere uma lista de 20 URLs de clipes musicais populares do YouTube que eu gostaria de incluir em um catálogo de vídeos. Por favor, forneça apenas as URLs completas.
+
 Edite: Copie a lista de URLs gerada pelo Gemini.
 Preencha listas_de_videos.txt no GitHub:
 
@@ -104,6 +107,7 @@ No seu repositório do GitHub, navegue até o arquivo listas_de_videos.txt que v
 Clique no ícone de lápis (editar) no canto superior direito do arquivo.
 Cole as URLs que você obteve do Gemini.
 Role para baixo, adicione uma mensagem de commit (ex: Adiciona lista de URLs de vídeos musicais) e clique em Commit changes.
+
 4. Preenchendo os Arquivos com a Ajuda da IA (Gemini)
 Agora que você tem os arquivos vazios e uma lista de vídeos, vamos preenchê-los. Para editar os arquivos, navegue até o arquivo no GitHub e clique no ícone de lápis (editar). Após colar o conteúdo, sempre faça um commit na parte inferior da página.
 
